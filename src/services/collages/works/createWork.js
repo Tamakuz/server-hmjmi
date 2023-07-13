@@ -30,6 +30,8 @@ const createWork = async (req, res, next) => {
       title,
       desc,
       link,
+      thumbnail: "sfsdf",
+      delete_url: "ssfdsf",
       detailcollage: collageId,
       createdAt: Date.now(),
     });
